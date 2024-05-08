@@ -332,9 +332,11 @@ img {
     margin-bottom: 8px;
 }
 
-.social-team-list {
+.social-link-item {
     gap: 24px;
 }
+
+
 
 /* ============ OUR PORTFOLIO STYLES ============ */
 
@@ -350,6 +352,7 @@ img {
 .portfolio-list-item {
     background: #ffffff;
     width: calc((100% - 48px) / 3);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .service-name {
@@ -396,7 +399,7 @@ img {
 .portfolio-list-item:hover .portfolio-overlay,
 .portfolio-list-item:focus .portfolio-overlay {
     transform: translateY(0%);
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
 
 }
 
@@ -423,7 +426,7 @@ img {
 
 .footer-container {
     display: flex;
-    justify-content: baseline;
+    align-items: baseline;
 }
 
 .footer-part-logo {
@@ -474,8 +477,7 @@ img {
     display: inline-flex;
     text-align: center;
     fill: #f4f4fd;
-    width: 24px;
-    height: 24px;
+
 }
 
 
