@@ -332,9 +332,25 @@ img {
     margin-bottom: 8px;
 }
 
-.social-link-item {
+.social-team-list {
+    display: flex;
     gap: 24px;
+    flex-shrink: 0;
+    justify-content: center;
 }
+
+.social-team-list .social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 
 
 
@@ -479,7 +495,6 @@ img {
 
 }
 
-
 .social-list {
     display: flex;
     gap: 16px;
@@ -487,7 +502,7 @@ img {
     justify-content: center;
 }
 
-.social-list .social-list-link {
+.social-list .social-team-list .social-list-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -503,7 +518,7 @@ img {
     background-color: #31d0aa;
 }
 
-.social-list .social-team:hover,
-.social-list .social-team:focus {
+.social-team-list .social-team:hover,
+.social-team-list .social-team:focus {
     background-color: #404bbf;
 }
